@@ -8,7 +8,7 @@ flex items-center justify-center" >
         <div className="w-full h-full mb-8 py-3">
 
           <h2 className="mt-6 mb-3 text-xl md:text-2xl font-bold text-center text-gray-900">Dados pessoais</h2>
-    
+
           <form>
 
             <div className="grid md:grid-cols-3 md:gap-6">
@@ -58,9 +58,9 @@ flex items-center justify-center" >
               </div>
 
             </div>
-        
+
             <h2 className="mt-2 mb-2 text-xl md:text-2xl font-bold text-center text-gray-900">Contatos</h2>
-        
+
 
             <div className="grid md:grid-cols-3 md:gap-6">
               <div className="relative z-0 mb-6 w-full group">
@@ -79,9 +79,9 @@ flex items-center justify-center" >
               </div>
             </div>
 
-       
+
             <h2 className="mt-2 mb-2 text-xl md:text-2xl font-bold text-center text-gray-900">Endereço</h2>
-         
+
 
             <div className="grid md:grid-cols-3 md:gap-6">
               <div className="relative z-0 mb-6 w-full group">
@@ -116,11 +116,18 @@ flex items-center justify-center" >
                 <input placeholder="" type="text" id="default-input estado-user" className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5" />
               </div>
 
-             
             </div>
-          
-            <button type="submit" className="w-30 block bg-indigo-500 hover:bg-indigo-400 focus:bg-indigo-400 text-white font-semibold rounded-lg
+
+            <div className="grid md:grid-cols-2 md:gap-6">
+              <div className="flex items-center mb-4">
+                <input id="default-checkbox prop-check" type="checkbox" value="" className="w-4 h-4 text-blue-600 bg-black-100 rounded border-black-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-black-800 focus:ring-2 dark:bg-black-700 dark:border-black-600" />
+                <label htmlFor="default-checkbox" className="ml-2 text-sm font-medium text-black-900 dark:text-black-300">Sou proprietário</label>
+              </div>
+              <button type="submit" className="w-30 block bg-indigo-500 hover:bg-indigo-400 focus:bg-indigo-400 text-white font-semibold rounded-lg
     px-4 py-3 mt-6">Finalizar</button>
+            </div>
+
+
           </form>
         </div>
       </div>
